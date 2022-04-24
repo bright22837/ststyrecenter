@@ -168,17 +168,28 @@ const Home: NextPage = () => {
 								มีปัญหาเรื่องรถ เรื่องยาง ยินดีให้คำปรึกษา
               </Title>
             </Col>
-            <Col xs={24} sm={24} md={10}>
-              <Text className="color-red">
-                เราเป็นตัวแทน Yokohama Club Network สาขาที่ 49
-              </Text>
-              <p>
-                <img
-                  src="/img/logo/yokohama-club-network.png"
-                  width="320"
-                  style={{ maxWidth: '500px' }}
-                />
-              </p>
+						<Col xs={24} sm={24} md={10} className="contactus-header">
+							<Space size={'small'} split={<Divider type="vertical" />}>
+								<PhoneOutlined />
+								<a href="tel:0925369151">
+									092-536-9151
+								</a>
+								<a href="tel:0961499969">
+									096-149-9969
+								</a>
+							</Space><br/>
+							{socialData.map((item) => {
+								return (<a
+									href={item.link}
+									target="_blank"
+									rel="noreferrer"
+									style={{marginRight: '1rem'}}
+								>
+									<img src={item.linkIcon} />
+									&nbsp;&nbsp;&nbsp;{item.name}
+								</a>
+								)
+							})}
             </Col>
           </Row>
         </Header>
@@ -246,13 +257,12 @@ const Home: NextPage = () => {
               <div
                 className="fb-page"
                 data-href="https://www.facebook.com/ststyrecenter"
-                data-tabs="timeline"
                 data-width="500"
                 data-height="800"
-                data-small-header="false"
+								data-small-header="false"
+								data-show-posts="true"
                 data-adapt-container-width="true"
                 data-hide-cover="false"
-                data-show-facepile="true"
               >
                 <blockquote
                   cite="https://www.facebook.com/ststyrecenter"

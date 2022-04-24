@@ -92,6 +92,10 @@
 	padding: 24px 0;
 }
 
+.contactus-header {
+	text-align: left;
+}
+
 @media screen and (max-width: 768px) {
 	.ant-layout-header {
 		padding: 0 20px;
@@ -136,5 +140,10 @@
 	.copyright {
 		padding-top: 24px;
 		font-size: 0.8rem !important;
+	}
+
+	.contactus-header {
+		text-align: center;
+		padding-bottom: 1rem;
 	}
 }
