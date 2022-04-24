@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Script from 'next/script'
 import Head from 'next/head';
-import { Button, Col, Row, Typography, List } from 'antd';
+import { Col, Row, Typography, List, Divider, Space } from 'antd';
 import Layout, { Content, Footer, Header } from 'antd/lib/layout/layout';
 import {
 	PhoneOutlined,
@@ -144,9 +144,9 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-			<Layout>
-				<div id="fb-root"></div>
-				<Script
+      <Layout>
+        <div id="fb-root"></div>
+        <Script
           async
           defer
           crossOrigin="anonymous"
@@ -175,20 +175,32 @@ const Home: NextPage = () => {
                 บริการทุกระดับประทับใจ มีปัญหาเรื่องรถ เรื่องยาง
                 ยินดีให้คำปรึกษา
               </Title>
-						</Col>
-						<Col xs={24} sm={24} md={10}>
-							<Text className="color-red">เราเป็นตัวแทน Yokohama Club Network สาขาที่ 49</Text>
-							<p><img src="/img/logo/yokohama-club-network.png" width="320" style={{ maxWidth: '500px' }} /></p>
-						</Col>
+            </Col>
+            <Col xs={24} sm={24} md={10}>
+              <Text className="color-red">
+                เราเป็นตัวแทน Yokohama Club Network สาขาที่ 49
+              </Text>
+              <p>
+                <img
+                  src="/img/logo/yokohama-club-network.png"
+                  width="320"
+                  style={{ maxWidth: '500px' }}
+                />
+              </p>
+            </Col>
           </Row>
         </Header>
 
-				<Content>
-					<Row className="main-section section">
+        <Content>
+          <Row className="main-section section">
             <Col xs={24} sm={12} md={12} className="text-center">
-              <img src="/img/promotion/promo-bank-credit.webp" className="img-responsive" style={{marginBottom: '1rem'}} />
+              <img
+                src="/img/promotion/promo-bank-credit.webp"
+                className="img-responsive"
+                style={{ marginBottom: '1rem' }}
+              />
             </Col>
-						<Col xs={24} sm={12} md={12}>
+            <Col xs={24} sm={12} md={12}>
               <iframe
                 className="video-stream"
                 title="STS SMART TYRE SERVICE CO., LTD."
@@ -197,25 +209,46 @@ const Home: NextPage = () => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
-						</Col>
+            </Col>
           </Row>
-					<Row className="service-detail-section section bg-red">
-						<Col xs={24} sm={12} md={14}>
-							<Title level={2} className="p-title color-white">
-							ศูนย์บริการยางครบวงจร
-							</Title>
-							<Paragraph className="color-white p-content" style={{ maxWidth: '500px' }}>บริการยางรถยนต์ทุกยี่ห้อชั้นนำ Yokohama Michelin Bridgestone Dunlop Goodyear Nexen GTRadial Maxxis และ ยี่ห้อชั้นนำอีกหลากหลาย</Paragraph>
+          <Row className="service-detail-section section bg-red">
+            <Col xs={24} sm={12} md={14}>
+              <Title level={2} className="p-title color-white">
+                ศูนย์บริการยางครบวงจร
+              </Title>
+              <Paragraph
+                className="color-white p-content"
+                style={{ maxWidth: '500px' }}
+              >
+                บริการยางรถยนต์ทุกยี่ห้อชั้นนำ Yokohama Michelin Bridgestone
+                Dunlop Goodyear Nexen GTRadial Maxxis และ
+                ยี่ห้อชั้นนำอีกหลากหลาย
+              </Paragraph>
 
-							<Title level={2} className="p-title color-white">
-							อุปกรณ์อะไหล่รถยนต์
-							</Title>
-							<Paragraph className="color-white p-content" style={{ maxWidth: '500px' }}>บริการยางรถยนต์ทุกยี่ห้อชั้นนำ Yokohama Michelin Bridgestone Dunlop Goodyear Nexen GTRadial Maxxis และ ยี่ห้อชั้นนำอีกหลากหลาย</Paragraph>
+              <Title level={2} className="p-title color-white">
+                อุปกรณ์อะไหล่รถยนต์
+              </Title>
+              <Paragraph
+                className="color-white p-content"
+                style={{ maxWidth: '500px' }}
+              >
+                บริการยางรถยนต์ทุกยี่ห้อชั้นนำ Yokohama Michelin Bridgestone
+                Dunlop Goodyear Nexen GTRadial Maxxis และ
+                ยี่ห้อชั้นนำอีกหลากหลาย
+              </Paragraph>
 
-							<Title level={2} className="p-title color-white">
-							บริการตรวจเช็คสภาพรถยนต์
-							</Title>
-							<Paragraph className="color-white p-content" style={{maxWidth: '500px'}}>บริการยางรถยนต์ทุกยี่ห้อชั้นนำ Yokohama Michelin Bridgestone Dunlop Goodyear Nexen GTRadial Maxxis และ ยี่ห้อชั้นนำอีกหลากหลาย</Paragraph>
-						</Col>
+              <Title level={2} className="p-title color-white">
+                บริการตรวจเช็คสภาพรถยนต์
+              </Title>
+              <Paragraph
+                className="color-white p-content"
+                style={{ maxWidth: '500px' }}
+              >
+                บริการยางรถยนต์ทุกยี่ห้อชั้นนำ Yokohama Michelin Bridgestone
+                Dunlop Goodyear Nexen GTRadial Maxxis และ
+                ยี่ห้อชั้นนำอีกหลากหลาย
+              </Paragraph>
+            </Col>
             <Col xs={24} sm={12} md={10}>
               <div id="fb-root"></div>
               <div
@@ -223,7 +256,7 @@ const Home: NextPage = () => {
                 data-href="https://www.facebook.com/ststyrecenter"
                 data-tabs="timeline"
                 data-width="500"
-                data-height=""
+                data-height="800"
                 data-small-header="false"
                 data-adapt-container-width="true"
                 data-hide-cover="false"
@@ -238,7 +271,7 @@ const Home: NextPage = () => {
                   </a>
                 </blockquote>
               </div>
-						</Col>
+            </Col>
           </Row>
 
           <Row
@@ -263,9 +296,14 @@ const Home: NextPage = () => {
                 <PhoneOutlined /> โทร
               </Title>
               <Paragraph className="color-white">
-                <a href="tel:092-5369-9151" className="color-white">
-                  092-5369-9151
-                </a>
+                <Space size={'small'} split={<Divider type="vertical" />}>
+                  <a href="tel:0925369151" className="color-white">
+                    092-536-9151
+                  </a>
+                  <a href="tel:0961499969" className="color-white">
+                    096-149-9969
+                  </a>
+                </Space>
               </Paragraph>
             </Col>
             <Col xs={24} sm={24} md={8}>
@@ -289,12 +327,12 @@ const Home: NextPage = () => {
                 จันทร์ - เสาร์ : 8.00 น. - 18.00 น.
               </Paragraph>
             </Col>
-						</Row>
+          </Row>
         </Content>
 
         <Footer>
           <Row className="social-media-section section">
-						<Col xs={24} sm={24} md={8}>
+            <Col xs={24} sm={24} md={8}>
               <Title level={4} className="color-white">
                 Social Media
               </Title>
@@ -304,7 +342,12 @@ const Home: NextPage = () => {
                 split={false}
                 renderItem={(item) => (
                   <List.Item>
-                    <a href={item.link} target="_blank" rel="noreferrer" className="color-white">
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="color-white"
+                    >
                       <img src={item.linkIcon} />
                       &nbsp;&nbsp;&nbsp;{item.name}
                     </a>
