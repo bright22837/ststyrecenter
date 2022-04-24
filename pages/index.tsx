@@ -273,7 +273,15 @@ const Home: NextPage = () => {
                   </a>
                 </blockquote>
               </div>
-            </Col>
+						</Col>
+						<Col span={24}>
+							<Title level={2} className="text-center color-white" style={{paddingTop: '2rem'}}>ที่ตั้งศูนย์บริการยางรถยนต์ STS เอกชัย บางบอน</Title>
+							<div className="mapouter">
+								<div className="gmap_canvas">
+									<iframe width="70%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=%E0%B9%80%E0%B8%AD%E0%B8%AA%E0%B8%97%E0%B8%B5%E0%B9%80%E0%B8%AD%E0%B8%AA%20%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C%E0%B8%A2%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%96%E0%B8%A2%E0%B8%99%E0%B8%95%E0%B9%8C%20%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%8A%E0%B8%B1%E0%B8%A2%20%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%9A%E0%B8%AD%E0%B8%99&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight={0} marginWidth={0}></iframe>
+								</div>
+							</div>
+						</Col>
           </Row>
 
           <Row

@@ -96,6 +96,11 @@
 	text-align: left;
 }
 
+.gmap_canvas {
+	padding-top: 1rem;
+	text-align: center;
+}
+
 @media screen and (max-width: 768px) {
 	.ant-layout-header {
 		padding: 0 20px;
@@ -145,5 +150,9 @@
 	.contactus-header {
 		text-align: center;
 		padding-bottom: 1rem;
+	}
+
+	.gmap_canvas iframe {
+		width: 100%;
 	}
 }
