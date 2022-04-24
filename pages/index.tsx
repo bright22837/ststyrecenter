@@ -143,19 +143,11 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff"></meta>
-      </Head>
+			</Head>
       <Layout>
-        <div id="fb-root"></div>
-        <Script
-          async
-          defer
-          crossOrigin="anonymous"
-          src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v13.0&appId=1328409690926518&autoLogAppEvents=1"
-          nonce="wabGnawZ"
-        ></Script>
         <Header>
           <Row align="middle">
-            <Col xs={24} sm={4} md={4}>
+            <Col xs={24} sm={24} md={3}>
               <Title
                 level={1}
                 className="text-center"
@@ -168,12 +160,12 @@ const Home: NextPage = () => {
                 />
               </Title>
             </Col>
-            <Col xs={24} sm={24} md={10}>
+            <Col xs={24} sm={24} md={11}>
               <Title level={3} className="title-desc">
                 ศูนย์ยางรถยนต์ STS เอกชัย บางบอน
                 <br />
-                บริการทุกระดับประทับใจ มีปัญหาเรื่องรถ เรื่องยาง
-                ยินดีให้คำปรึกษา
+								บริการทุกระดับประทับใจ<br/>
+								มีปัญหาเรื่องรถ เรื่องยาง ยินดีให้คำปรึกษา
               </Title>
             </Col>
             <Col xs={24} sm={24} md={10}>
@@ -204,7 +196,7 @@ const Home: NextPage = () => {
               <iframe
                 className="video-stream"
                 title="STS SMART TYRE SERVICE CO., LTD."
-                src="https://www.youtube.com/embed/e_8B0GAvOGw?list=TLGGdS9jyVYqIO8yNDA0MjAyMg&autoplay=1&loop=1"
+                src="https://www.youtube.com/embed/e_8B0GAvOGw?list=TLGGdS9jyVYqIO8yNDA0MjAyMg&autoplay=1&loop=1&mute=1"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
