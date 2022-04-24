@@ -5,10 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+		"export": "next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.19.5",
+    "google-map-react": "^2.1.10",
     "next": "12.1.5",
     "react": "18.0.0",
     "react-dom": "18.0.0"

@@ -1,16 +1,138 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import '~antd/dist/antd.css';
+
+.logo {
+	width: 100%;
+	max-width: 200px;
+	margin-right: 2rem;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.title-desc {
+	line-height: 1.7;
 }
 
-* {
-  box-sizing: border-box;
+.ant-layout-header {
+	height: auto;
+	background-color: #fff;
+}
+
+.ant-layout-header {
+	padding: 0 10rem;
+}
+
+.ant-layout-footer {
+	color: #fff;
+	background-color: #6e6e6e;
+}
+
+.color-white .ant-list-item {
+	color: #fff !important;
+}
+
+.color-white {
+	color: #fff !important;
+}
+
+.color-red {
+	color: #ce2026 !important;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.section {
+	margin: 0;
+	padding: 24px 12rem;
+}
+
+.bg-red {
+	background-color: #ce2026 !important;
+}
+
+.p-title {
+	font-size: 1.2rem;
+}
+
+.p-content {
+	font-size: 1.4rem;
+}
+
+.main-section {
+	background-color: #ce2026;
+	background-image: url('/img/bg/bg01.webp');
+	background-size: cover;
+}
+
+.brand-section .ant-col {
+	text-align: center;
+}
+
+.brand-section .ant-col img {
+	width: 100% !important;
+	max-width: 400px;
+	padding: 1rem;
+}
+
+.contactus-section {
+	background-color: #ce2026;
+}
+
+.video-stream {
+	width: 582px !important;
+	height: 327px !important;
+	display: block;
+}
+
+.copyright {
+	padding-top: 24px;
+}
+
+.ant-layout-footer {
+	padding: 24px 0;
+}
+
+@media screen and (max-width: 768px) {
+	.ant-layout-header {
+		padding: 0 20px;
+	}
+	.ant-layout-footer {
+		padding: 0 1rem;
+	}
+
+	.logo {
+		max-width: 120px;
+		margin-right: 0 !important;
+	}
+
+	.section {
+		padding: 24px 1rem;
+	}
+
+	.title-desc {
+		font-size: 1rem !important;
+		text-align: center !important;
+	}
+
+	.p-title {
+		font-size: 1.2rem !important;
+	}
+
+	.p-content {
+		font-size: 1rem !important;
+	}
+
+	.video-stream {
+		width: 320px !important;
+		height: 180px !important;
+		display: block;
+	}
+
+	.img-responsive {
+		width: 100% !important;
+	}
+
+	.copyright {
+		padding-top: 24px;
+		font-size: 0.8rem !important;
+	}
 }
