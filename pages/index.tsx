@@ -183,6 +183,7 @@ const Home: NextPage = () => {
 									href={item.link}
 									target="_blank"
 									rel="noreferrer"
+									key={`social-header-${item.name}`}
 									style={{marginRight: '1rem'}}
 								>
 									<img src={item.linkIcon} />
