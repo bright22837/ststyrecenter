@@ -204,11 +204,11 @@ const Home: NextPage = () => {
                 style={{ marginBottom: '1rem' }}
               />
             </Col>
-            <Col xs={24} sm={12} md={12}>
+						<Col xs={24} sm={12} md={12}>
               <iframe
                 className="video-stream"
-                title="STS SMART TYRE SERVICE CO., LTD."
-                src="https://www.youtube.com/embed/e_8B0GAvOGw?list=TLGGdS9jyVYqIO8yNDA0MjAyMg&autoplay=1&loop=1&mute=1"
+								title="STS SMART TYRE SERVICE CO., LTD."
+                src="https://www.youtube.com/embed/e_8B0GAvOGw?autoplay=1&loop=1&mute=1"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
