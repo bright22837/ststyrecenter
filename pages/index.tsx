@@ -260,9 +260,7 @@ const Home: NextPage = () => {
                 className="color-white p-content"
                 style={{ maxWidth: '500px' }}
               >
-                บริการยางรถยนต์ทุกยี่ห้อชั้นนำ Yokohama Michelin Bridgestone
-                Dunlop Goodyear Nexen GTRadial Maxxis และ
-                ยี่ห้อชั้นนำอีกหลากหลาย
+                เบรค, โช้คอัพ, น้ำมันเครื่อง, ลูกหมาก และอื่นๆ
               </Paragraph>
 
               <Title level={2} className="p-title color-white">
@@ -272,10 +270,32 @@ const Home: NextPage = () => {
                 className="color-white p-content"
                 style={{ maxWidth: '500px' }}
               >
-                บริการยางรถยนต์ทุกยี่ห้อชั้นนำ Yokohama Michelin Bridgestone
-                Dunlop Goodyear Nexen GTRadial Maxxis และ
-                ยี่ห้อชั้นนำอีกหลากหลาย
-              </Paragraph>
+                เช็คระยะทาง เปลี่ยนถ่ายน้ำมันเครื่อง ตั่งศูนย์ถ่วงล้อ ระบบเบรค ช่วงล่าง และอีกหลากหลายบริการ
+							</Paragraph>
+							<div className="service-list-section">
+								<Row justify="center" className="bg-white text-center border-radis-1">
+									<Col flex={1} className="pad-1 text-center">
+										<img src="/img/service/tyre-icon.webp" alt="ยาง" className="img-tyre-icon"  />
+										<Title level={5}>ยาง</Title>
+									</Col>
+									<Col flex={1} className="pad-1 text-center">
+										<img src="/img/service/break-icon.webp" alt="เบรค" />
+										<Title level={5}>เบรค</Title>
+									</Col>
+									<Col flex={1} className="pad-1 text-center">
+										<img src="/img/service/chockup-icon.webp" alt="โช๊คอัพ" />
+										<Title level={5}>โช๊คอัพ</Title>
+									</Col>
+									<Col flex={1} className="pad-1 text-center">
+										<img src="/img/service/setup-icon.webp" alt="ตั้งศูนย์ระบบคอมพิวเตอร์" />
+										<Title level={5}>ตั้งศูนย์ระบบ<br/>คอมพิวเตอร์</Title>
+									</Col>
+									<Col flex={1} className="pad-1 text-center">
+										<img src="/img/service/oil-icon.webp" alt="น้ำมันเครื่อง/เกียร์" />
+										<Title level={5}>น้ำมันเครื่อง<br/>เกียร์</Title>
+									</Col>
+								</Row>
+							</div>
             </Col>
             <Col xs={24} sm={12} md={10}>
               <div id="fb-root"></div>

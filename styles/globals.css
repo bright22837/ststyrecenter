@@ -50,6 +50,18 @@
 	background-color: #ce2026 !important;
 }
 
+.bg-white {
+	background-color: #fff !important;
+}
+
+.pad-1 {
+	padding: 1rem 1rem 0 1rem;
+}
+
+.border-radis-1 {
+	border-radius: 1rem;
+}
+
 .p-title {
 	font-size: 1.2rem;
 }
@@ -82,6 +94,10 @@
 	width: 582px !important;
 	height: 327px !important;
 	display: block;
+}
+
+.service-list-section {
+	margin: 1rem 3rem 1rem 0;
 }
 
 .copyright {
@@ -140,6 +156,18 @@
 
 	.img-responsive {
 		width: 100% !important;
+	}
+
+	.service-list-section {
+		margin: 0 0 1rem 0;
+	}
+
+	.service-list-section h5 {
+		font-size: 0.48rem;
+	}
+
+	.service-list-section img {
+		width: 30px;
 	}
 
 	.copyright {
