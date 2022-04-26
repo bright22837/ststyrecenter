@@ -70,8 +70,8 @@ const Home: NextPage = () => {
         </title>
 				<meta property="og:title" content="ศูนย์ยางรถยนต์ STS เอกชัย บางบอน | STS SMART TYRE SERVICE CO., LTD." />
 				<meta name="description" content="ยางรถยนต์ ช่วงล่าง เปลี่ยนถ่าย น้ำมันเครื่อง ตั้งศูนย์ ยินดีบริการครับ" />
-				<meta property="og:image" content="https://ststyrecenter.com/img/fav/favicon-96x96.png" />
-				og:locale
+				<meta property="og:image" content="https://ststyrecenter.com/img/fav/apple-icon-180x180.png" />
+
 				<meta property="og:image:width" content="96" />
 				<meta property="og:image:height" content="96" />
 				<meta property="og:url" content="https://ststyrecenter.com" />
@@ -79,7 +79,21 @@ const Home: NextPage = () => {
 				<meta property="og:type" content="website" />
 				<meta property="og:locale" content="th_TH" />
 				<link rel="canonical" href="https://ststyrecenter.com"></link>
-        <link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/favicon.ico" />
+
+				<meta property="og:url" content="https://ststyrecenter.com/" />
+				<meta property="og:type" content="website" />
+				<meta property="og:title" content="ศูนย์ยางรถยนต์ STS เอกชัย บางบอน | STS SMART TYRE SERVICE CO., LTD." />
+				<meta property="og:description" content="ยางรถยนต์ ช่วงล่าง เปลี่ยนถ่าย น้ำมันเครื่อง ตั้งศูนย์ ยินดีบริการครับ" />
+				<meta property="og:image" content="https://ststyrecenter.com/img/fav/apple-icon-180x180.png" />
+
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta property="twitter:domain" content="ststyrecenter.com" />
+				<meta property="twitter:url" content="https://ststyrecenter.com/" />
+				<meta name="twitter:title" content="ศูนย์ยางรถยนต์ STS เอกชัย บางบอน | STS SMART TYRE SERVICE CO., LTD." />
+				<meta name="twitter:description" content="ยางรถยนต์ ช่วงล่าง เปลี่ยนถ่าย น้ำมันเครื่อง ตั้งศูนย์ ยินดีบริการครับ" />
+				<meta name="twitter:image" content="https://ststyrecenter.com/img/fav/apple-icon-180x180.png" />
+
         <link
           rel="apple-touch-icon"
           sizes="57x57"
